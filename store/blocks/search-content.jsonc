@@ -1,0 +1,99 @@
+{
+  "search-content#defaultSearch": {
+    "blocks": [
+      "gallery#defaultSearch",
+      "not-found"
+    ]
+  },
+  "gallery#defaultSearch": {
+    "props": {
+      "blockClass": "defaultSearch",
+      "maxItemsPerRow": {
+        "desktop": 3,
+        "tablet": 3
+      }
+    },
+    "blocks": [
+      "product-summary.shelf#defaultSearch"
+    ]
+  },
+  "product-summary.shelf#defaultSearch": {
+    "props": {
+      "blockClass": "defaultSearch"
+    },
+    "children": [
+      "flex-layout.row#defaultSearch"
+    ]
+  },
+  "flex-layout.row#defaultSearch": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "blockClass": "defaultSearch2"
+    },
+    "children": [
+      "flex-layout.col#psImage",
+      "flex-layout.col#psDetails"
+    ]
+  },
+  "flex-layout.col#psImage": {
+    "props": {
+      "blockClass": "imageContainer",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "product-summary-image#defaultSearch"
+    ]
+  },
+  "flex-layout.col#psDetails": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "textAlignLeft",
+      "paddingBottom": 0
+    },
+    "children": [
+      // "vtex.product-list:product-name",
+      "vtex.store-components:product-name",
+      "product-sku-attributes",
+      "product-identifier.summary",
+      "product-specification-badges#productSummary",
+      "product-summary-space",
+      "product-selling-price#summary",
+      "add-to-cart-button"
+    ]
+  },
+  "product-selling-price#summary": {
+    "props": {
+      "markers": [
+        "highlight"
+      ],
+      "blockClass": "summary",
+      "message": "{sellingPriceValue}"
+    }
+  },
+  "product-specification-badges#productSummary": {
+    "props": {
+      "blockClass": "productSummary",
+      "specificationGroupName": "App Data",
+      "specificationsOptions": [
+        {
+          "displayValue": "SPECIFICATION_VALUE",
+          "specificationName": "headline"
+        }
+      ]
+    }
+  },
+  "product-summary-image#defaultSearch": {
+    "props": {
+      "height": {
+        "desktop": "160px"
+      }
+    }
+  },
+  "add-to-cart-button": {
+    "props": {
+      "blockClass": "agregar-al-carrito",
+      "text": "Agregar al carrito"
+    }
+  }
+}

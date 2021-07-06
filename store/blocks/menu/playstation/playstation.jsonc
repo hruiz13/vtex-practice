@@ -1,0 +1,106 @@
+{
+    "menu-item#playstation5": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Play Station 5"
+            },
+            "blockClass": [
+                "submenucss",
+                "ps"
+            ],
+            "iconProps": {
+                "id": "",
+                "size": 45,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    },
+    "menu-item#consolas": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Consolas"
+            },
+            "blockClass": [
+                "submenucss",
+                "consola"
+            ],
+            "iconProps": {
+                "id": "",
+                "size": 45,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    },
+    "menu-item#juegos": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Juegos"
+            },
+            "blockClass": [
+                "submenucss",
+                "juegos"
+            ],
+            "iconProps": {
+                "id": "",
+                "size": 45,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    },
+    "menu-item#accesoriosParaPlay": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Accesorios para PlayStation"
+            },
+            "blockClass": [
+                "submenucss",
+                "psaccesorios"
+            ],
+            "iconProps": {
+                "id": "",
+                "size": 45,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    }
+}

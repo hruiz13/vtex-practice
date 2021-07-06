@@ -1,0 +1,23 @@
+.summaryTitle{
+    display: none;
+}
+
+.summarySmallDisclaimer{
+    display: none;
+}
+
+.summaryItemLabel{
+    height: 24px;
+    line-height: 24px;
+    color: #2F353D;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.price{
+    height: 24px;
+    line-height: 24px;
+    color: #2F353D;
+    font-weight: 700;
+    font-size: 15px;
+}

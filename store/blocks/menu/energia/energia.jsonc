@@ -1,0 +1,54 @@
+{
+    "menu-item#cargadoresPortatiles": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Cargadores Portátiles"
+            },
+            "blockClass": [
+                "submenucss",
+                "cargadores"
+            ],
+            "iconProps": {
+                "id": "",
+                "size": 45,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    },
+    "menu-item#tarjetasDeMemoria": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Tarjetas de Memoria, Unidades Flash y HDD"
+            },
+            "blockClass": [
+                "submenucss",
+                "tarjetas"
+            ],
+            "iconProps": {
+                "id": "",
+                "size": 45,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    }
+}

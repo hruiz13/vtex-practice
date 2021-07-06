@@ -1,0 +1,248 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "props": {
+      "blockClass": "footer-one"
+    },
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  //organization of footer columns
+  "flex-layout.row#footer": {
+    "title": "el pie de pagina",
+    "props": {
+      "blockClass": "footer-two"
+    },
+    "children": [
+      "flex-layout.col#footer-1",
+      "flex-layout.col#footer-2",
+      "flex-layout.col#footer-3",
+      "flex-layout.col#footer-4",
+      "flex-layout.col#footer-5"
+    ]
+  },
+  //column 1 of top footer
+  "flex-layout.col#footer-1": {
+    "title": "Primera fila",
+    "props": {
+      "blockClass": "footer-three"
+    },
+    "children": [
+      "rich-text#footer1a",
+      "rich-text#footer1b"
+    ]
+  },
+  "rich-text#footer1a": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Buscar un Distribuidor",
+      "blockClass": "bud"
+    }
+  },
+  "rich-text#footer1b": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Escríbenos 1b",
+      "blockClass": "va1"
+    }
+  },
+  //column 2 of top footer
+  "flex-layout.col#footer-2": {
+    "props": {
+      "blockClass": "footer-four"
+    },
+    "children": [
+      "rich-text#footer2",
+      "link.product#f2-l1",
+      "link.product#f2-l2",
+      "link.product#f2-l3",
+      "link.product#f2-l4",
+      "link.product#f2-l5",
+      "link.product#f2-l6",
+      "link.product#f2-l7",
+      "link.product#f2-l8",
+      "link.product#f2-l9"
+    ]
+  },
+  "rich-text#footer2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Compra Online",
+      "blockClass": "bud"
+    }
+  },
+  "link.product#f2-l1": {
+    "props": {
+      "href": "/",
+      "label": "Tienda en Línea",
+      "blockClass": "footer-link"
+    }
+  },
+  "link.product#f2-l2": {
+    "props": {
+      "href": "/centro-de-ayuda",
+      "label": "Ayuda Sony Store",
+      "blockClass": "footer-link"
+    }
+  },
+  "link.product#f2-l3": {
+    "props": {
+      "href": "/pqr",
+      "label": "Peticiones, Quejas o Reclamos(PQRs)",
+      "blockClass": "footer-link"
+    }
+  },
+  "link.product#f2-l4": {
+    "props": {
+      "href": "/cambios-y-devoluciones",
+      "label": "Políticas de cambio y devoluciones",
+      "blockClass": "footer-link"
+    }
+  },
+  "link.product#f2-l5": {
+    "props": {
+      "href": "/terminos-y-devoluciones",
+      "label": "Términos y condiciones",
+      "blockClass": "footer-link"
+    }
+  },
+  "link.product#f2-l6": {
+    "props": {
+      "href": "https://www.sony.com.co/corporate/CO/servicioysoporte/servicio.html?XID=M:svc:esupport",
+      "label": "Mi garantía Sony",
+      "blockClass": "footer-link"
+    }
+  },
+  "link.product#f2-l7": {
+    "props": {
+      "href": "http://www.sic.gov.co/drupal/",
+      "label": "Superintendencia de Industria y Comercio",
+      "blockClass": "footer-link"
+    }
+  },
+  "link.product#f2-l8": {
+    "props": {
+      "href": "http://www.sic.gov.co/recursos_user/documentos/normatividad/Leyes/2011/Ley_1480_Estatuto_Consumidor.pdf",
+      "label": "Estatuto del consumidor",
+      "blockClass": "footer-link"
+    }
+  },
+  "link.product#f2-l9": {
+    "props": {
+      "href": "http://www.tdtparatodos.tv/",
+      "label": "Todo lo que debes saber sobre la Televisión Digital Terrestre",
+      "blockClass": "footer-link"
+    }
+  },
+  //column 3 of top footer
+  "flex-layout.col#footer-3": {
+    "title": "fila 3",
+    "props": {
+      "blockClass": "footer-five"
+    },
+    "children": [
+      "rich-text#footer3",
+      "link.product#f2-2l1",
+      "link.product#f2-2l2",
+      "link.product#f2-2l3"
+    ]
+  },
+  "rich-text#footer3": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Comunidad",
+      "blockClass": "bud"
+    }
+  },
+  "link.product#f2-2l1": {
+    "props": {
+      "href": "https://www.facebook.com/comunidadalpha",
+      "label": "Comunidad Alpha",
+      "blockClass": "footer-link"
+    }
+  },
+  "link.product#f2-2l2": {
+    "props": {
+      "href": "http://blog.latam.playstation.com/?smcid=gwo",
+      "label": "Blog PlayStation",
+      "blockClass": "footer-link"
+    }
+  },
+  "link.product#f2-2l3": {
+    "props": {
+      "href": "http://community.sony.com/?profile.language=es&XID=M:gwt:footer",
+      "label": "Ayuda con Mi Producto",
+      "blockClass": "footer-link"
+    }
+  },
+  //column 4 of top footer
+  "flex-layout.col#footer-4": {
+    "props": {
+      "blockClass": "footer-six"
+    },
+    "children": [
+      "rich-text#footer4",
+      "link.product#f2-3l1",
+      "link.product#f2-3l2",
+      "link.product#f2-3l3",
+      "link.product#f2-3l4"
+    ]
+  },
+  "rich-text#footer4": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Noticias e Información",
+      "blockClass": "bud"
+    }
+  },
+  "link.product#f2-3l1": {
+    "props": {
+      "href": "https://www.sony.com.co/electronics/acerca-de-sony",
+      "label": "Acerca de Sony",
+      "blockClass": "footer-link"
+    }
+  },
+  "link.product#f2-3l2": {
+    "props": {
+      "href": "http://www.sony-latin.com/corporate/SOLA/acerca/infocorporativa/datoscorporativos.html",
+      "label": "Información Corporativa",
+      "blockClass": "footer-link"
+    }
+  },
+  "link.product#f2-3l3": {
+    "props": {
+      "href": "http://www.sony-latin.com/corporate/SOLA/acerca/centrodeprensa/comunicados.html",
+      "label": "Centro de Prensa",
+      "blockClass": "footer-link"
+    }
+  },
+  "link.product#f2-3l4": {
+    "props": {
+      "href": "http://www.sony.net/SonyInfo/csr/SonyEnvironment/es-la/",
+      "label": "Sony y el Medio Ambiente",
+      "blockClass": "footer-link"
+    }
+  },
+  //column 5 of top footer
+  "flex-layout.col#footer-5": {
+    "props": {
+      "blockClass": "footer-six"
+    }
+  }
+}

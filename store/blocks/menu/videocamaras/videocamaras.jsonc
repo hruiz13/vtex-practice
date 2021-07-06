@@ -1,0 +1,106 @@
+{
+    "menu-item#actionCam": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Action Cam"
+            },
+            "blockClass": [
+                "submenucss",
+                "videoaction"
+            ],
+            "iconProps": {
+                "id": "",
+                "size": 45,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    },
+    "menu-item#handyCam": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Handy Cam"
+            },
+            "blockClass": [
+                "submenucss",
+                "handycam"
+            ],
+            "iconProps": {
+                "id": "",
+                "size": 45,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    },
+    "menu-item#videoAccesorios": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Accesorios"
+            },
+            "blockClass": [
+                "submenucss",
+                "videoaccesorios"
+            ],
+            "iconProps": {
+                "id": "",
+                "size": 45,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    },
+    "menu-item#camarasDeCine": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Cámaras de Cine"
+            },
+            "blockClass": [
+                "submenucss",
+                "cine"
+            ],
+            "iconProps": {
+                "id": "",
+                "size": 45,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    }
+}

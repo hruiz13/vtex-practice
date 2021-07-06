@@ -1,0 +1,9 @@
+.containerNormal--defaultSearch{
+    max-width: 1000px !important;
+    border-radius: 0;
+    border: transparent 1px solid;
+}
+.containerNormal--defaultSearch:hover{
+    border: #E4E7EB 1px solid;
+}
+

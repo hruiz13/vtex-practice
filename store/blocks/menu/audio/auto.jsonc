@@ -1,0 +1,54 @@
+{
+    "menu-item#reproductoresParaAutomovil": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Reproductores para Automóvil"
+            },
+            "blockClass": [
+                "submenucss",
+                "caraudio"
+            ],
+            "iconProps": {
+                "id": "",
+                "size": 45,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    },
+    "menu-item#bocinas": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Bocinas y Amplificadores"
+            },
+            "blockClass": [
+                "submenucss",
+                "amplificadores"
+            ],
+            "iconProps": {
+                "id": "",
+                "size": 45,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    }
+}

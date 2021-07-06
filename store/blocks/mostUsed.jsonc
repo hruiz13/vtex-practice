@@ -1,0 +1,28 @@
+{
+  "search-result-layout.customQuery#mostUsed": {
+    "props": {
+      "querySchema": {
+        "maxItemsPerPage": 9,
+        "orderByField": "OrderByReleaseDateDESC",
+        "queryField": "product",
+        "mapField": "ft",
+        "__unstableProductOriginVtex": true,
+        "simulationBehavior": "skip",
+        "skusFilter": "FIRST_AVAILABLE"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#mostUsed"
+    ]
+  },
+  "search-result-layout.desktop#mostUsed": {
+    "children": [
+      "shelf-container#mostUsed"
+    ]
+  },
+  "shelf-container#mostUsed": {
+    "children": [
+      "search-content#defaultSearch"
+    ]
+  }
+}

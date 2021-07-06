@@ -1,0 +1,17 @@
+.productName{   
+    color: #2f353d;
+    font-size: 12px;
+    line-height: 18px;
+    max-height: 36px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.productBrandName{
+    display: none;
+}
+
+.price{
+    display: none;
+    margin: 0
+}

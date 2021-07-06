@@ -1,0 +1,158 @@
+{
+    "menu-item#sistemaDeAudio": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Sistemas de Audio"
+            },
+            "blockClass": [
+                "submenucss",
+                "audiosys"
+            ],
+            "iconProps": {
+                "id": "",
+                "size": 45,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    },
+    "menu-item#parlantesInalambricos": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Parlantes Inálambricos"
+            },
+            "blockClass": [
+                "submenucss",
+                "inal"
+            ],
+            "iconProps": {
+                "id": "",
+                "size": 45,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    },
+    "menu-item#audifonos": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Audífonos"
+            },
+            "blockClass": [
+                "submenucss",
+                "audifonos"
+            ],
+            "iconProps": {
+                "id": "",
+                "size": 45,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    },
+    "menu-item#reproductorDigital": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Reproductores de Música Digital Walkman"
+            },
+            "blockClass": [
+                "submenucss",
+                "reprodigi"
+            ],
+            "iconProps": {
+                "id": "",
+                "size": 45,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    },
+    "menu-item#boombox": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Boomboxes, Radios y reproductores de CD Portátiles"
+            },
+            "blockClass": [
+                "submenucss",
+                "boom"
+            ],
+            "iconProps": {
+                "id": "",
+                "size": 45,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    },
+    "menu-item#grabadoras": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Grabadoras de vos digital"
+            },
+            "blockClass": [
+                "submenucss",
+                "grabadoras"
+            ],
+            "iconProps": {
+                "id": "",
+                "size": 45,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    }
+}

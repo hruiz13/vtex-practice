@@ -1,0 +1,309 @@
+{
+    "vtex.menu@2.x:menu#sonyMenu": {
+        "children": [
+            "menu-item#cyberdays",
+            "menu-item#tv",
+            "menu-item#camaras",
+            "menu-item#videocamaras",
+            "menu-item#audio",
+            "menu-item#playstation",
+            "menu-item#audioParaAuto",
+            "menu-item#energia"
+        ]
+    },
+    "menu-item#cyberdays": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "CYBERDAYS"
+            },
+            "blockClass": "estrella",
+            "iconProps": {
+                "id": "inf-star",
+                "size": 35,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    },
+    "menu-item#tv": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "TV y Teatro en casa"
+            },
+            "blockClass": "estrella",
+            "iconProps": {
+                "id": "mpa-tv",
+                "size": 35,
+                "viewBox": "0 0 19 16",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#tvs"
+        ]
+    },
+    "vtex.menu@2.x:submenu#tvs": {
+        "children": [
+            "vtex.menu@2.x:menu#submenustvs"
+        ]
+    },
+    "vtex.menu@2.x:menu#submenustvs": {
+        "children": [
+            "menu-item#televisor",
+            "menu-item#teatroEnCasa",
+            "menu-item#blueRay",
+            "menu-item#accesorios"
+        ]
+    },
+    "menu-item#camaras": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Cámaras"
+            },
+            "blockClass": "estrella",
+            "iconProps": {
+                "id": "mpa-cam",
+                "size": 35,
+                "viewBox": "0 0 19 16",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#camaras"
+        ]
+    },
+    "vtex.menu@2.x:submenu#camaras": {
+        "children": [
+            "vtex.menu@2.x:menu#submenuscamaras"
+        ]
+    },
+    "vtex.menu@2.x:menu#submenuscamaras": {
+        "children": [
+            "menu-item#CamaraLentes",
+            "menu-item#cyberShot",
+            "menu-item#lentes",
+            "menu-item#accesorioscam",
+            "menu-item#camaraCine"
+        ]
+    },
+    "menu-item#videocamaras": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Videocámaras"
+            },
+            "blockClass": "estrella",
+            "iconProps": {
+                "id": "mpa-videocam",
+                "size": 35,
+                "viewBox": "0 0 19 16",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#videocamaras"
+        ]
+    },
+    "vtex.menu@2.x:submenu#videocamaras": {
+        "children": [
+            "vtex.menu@2.x:menu#submenusvideocamaras"
+        ]
+    },
+    "vtex.menu@2.x:menu#submenusvideocamaras": {
+        "children": [
+            "menu-item#actionCam",
+            "menu-item#handyCam",
+            "menu-item#videoAccesorios",
+            "menu-item#camarasDeCine"
+        ]
+    },
+    "menu-item#audio": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Audio"
+            },
+            "blockClass": "estrella",
+            "iconProps": {
+                "id": "mpa-headphones",
+                "size": 35,
+                "viewBox": "0 0 21 16",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#audio"
+        ]
+    },
+    "vtex.menu@2.x:submenu#audio": {
+        "children": [
+            "vtex.menu@2.x:menu#submenusaudio"
+        ]
+    },
+    "vtex.menu@2.x:menu#submenusaudio": {
+        "children": [
+            "menu-item#sistemaDeAudio",
+            "menu-item#parlantesInalambricos",
+            "menu-item#audifonos",
+            "menu-item#reproductorDigital",
+            "menu-item#boombox",
+            "menu-item#grabadoras"
+        ]
+    },
+    "menu-item#playstation": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "PlayStation"
+            },
+            "blockClass": "estrella",
+            "iconProps": {
+                "id": "mpa-ps",
+                "size": 35,
+                "viewBox": "0 0 19 20",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#playstation"
+        ]
+    },
+    "vtex.menu@2.x:submenu#playstation": {
+        "children": [
+            "vtex.menu@2.x:menu#submenusplaystation"
+        ]
+    },
+    "vtex.menu@2.x:menu#submenusplaystation": {
+        "children": [
+            "menu-item#playstation5",
+            "menu-item#consolas",
+            "menu-item#juegos",
+            "menu-item#accesoriosParaPlay"
+        ]
+    },
+    "menu-item#audioParaAuto": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Audio para Auto"
+            },
+            "blockClass": "estrella",
+            "iconProps": {
+                "id": "mpa-caraudio",
+                "size": 35,
+                "viewBox": "0 0 20 10",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#audioParaAuto"
+        ]
+    },
+    "vtex.menu@2.x:submenu#audioParaAuto": {
+        "children": [
+            "vtex.menu@2.x:menu#submenusaudioParaAuto"
+        ]
+    },
+    "vtex.menu@2.x:menu#submenusaudioParaAuto": {
+        "children": [
+            "menu-item#reproductoresParaAutomovil",
+            "menu-item#bocinas"
+        ]
+    },
+    "menu-item#energia": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Energía y Almacenamiento"
+            },
+            "blockClass": "estrella",
+            "iconProps": {
+                "id": "mpa-usb",
+                "size": 35,
+                "viewBox": "0 0 19 16",
+                "activeClassName": "verdeColor",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#energia"
+        ]
+    },
+    "vtex.menu@2.x:submenu#energia": {
+        "children": [
+            "vtex.menu@2.x:menu#submenusenergia"
+        ]
+    },
+    "vtex.menu@2.x:menu#submenusenergia": {
+        "children": [
+            "menu-item#cargadoresPortatiles",
+            "menu-item#tarjetasDeMemoria"
+        ]
+    }
+}

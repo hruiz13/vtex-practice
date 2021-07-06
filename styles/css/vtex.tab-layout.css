@@ -1,0 +1,8 @@
+.listContainer {
+    background-color: #85cdca;
+    margin-top: 15px;
+}
+.listItem--rigthbtn :global(.vtex-button__label){
+    color:#8d6858;
+    font-weight: bold;
+}

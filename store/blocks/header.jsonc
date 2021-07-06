@@ -1,0 +1,196 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "sticky-layout#desktop"
+    ]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#desktop",
+      "flex-layout.row#desktop2"
+    ]
+  },
+  "flex-layout.row#desktop": {
+    "props": {
+      "blockClass": "header-left"
+    },
+    "children": [
+      "flex-layout.col#logo-desktop"
+    ]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo"
+    ]
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "data:image/png;base64,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",
+      "width": "102"
+    }
+  },
+  "flex-layout.row#desktop2": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "header-right"
+    },
+    "children": [
+      "search-bar",
+      "link.product#product-page",
+      "modal-trigger#mis-productos",
+      "minicart.v2#op2",
+      "btn-sony",
+      "minicart.v2"
+    ]
+  },
+  "search-bar": {
+    "props": {
+      "placeholder": "Buscar productos por nombre, código o categoría..."
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#mobile"
+    ]
+  },
+  "sticky-layout#mobile": {
+    "children": [
+      "flex-layout.row#mobile"
+    ]
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "drawer",
+      "logo",
+      "search-bar",
+      "flex-layout.col#spacer",
+      "link.product#product-page",
+      "minicart.v2#op2",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": []
+  },
+  "link.product#product-page": {
+    "props": {
+      "href": "/centro-de-ayuda",
+      "label": "AYUDA",
+      "blockClass": "link-centro-ayuda"
+    }
+  },
+  "modal-trigger#mis-productos": {
+    "children": [
+      "rich-text#mis-productos",
+      "modal-layout#mis-productos"
+    ]
+  },
+  "rich-text#mis-productos": {
+    "props": {
+      "text": "MIS PEDIDOS",
+      "blockClass": "mis-pedidos"
+    }
+  },
+  "modal-layout#mis-productos": {
+    "children": [
+      "login-content"
+    ]
+  },
+  "login": {
+    "props": {
+      "iconLabel": "Mis pedidos",
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "blockClass": "login-btn"
+    }
+  },
+  "minicart.v2#op2": {
+    "props": {
+      "variation": "popup",
+      "openOnHover": true,
+      "itemCountMode": "total",
+      "MinicartIcon": "btn-dots",
+      "quantityDisplay": "never"
+    },
+    "children": [
+      "dots-menu"
+    ]
+  },
+  "flex-layout.col#dots": {
+    "children": [
+      "flex-layout.row#info",
+      "link#dots-info2",
+      "link#dots-info3"
+    ]
+  },
+  "flex-layout.row#info": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#info2",
+      "icon-next"
+    ]
+  },
+  "flex-layout.row#info2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "icon-quest",
+      "link#dots-info"
+    ]
+  },
+  "link#dots-info": {
+    "props": {
+      "label": "Ayuda",
+      "blockClass": "link"
+    }
+  },
+  "link#dots-info2": {
+    "props": {
+      "label": "Login Sony",
+      "blockClass": "link"
+    }
+  },
+  "link#dots-info3": {
+    "props": {
+      "label": "Sitio Sony",
+      "blockClass": "link"
+    }
+  }
+}

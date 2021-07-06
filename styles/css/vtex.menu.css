@@ -1,0 +1,200 @@
+.styledLinkContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: normal;
+}
+
+.menuItem--estrella{
+    width: 110px;
+    margin: 0 10px;
+}
+.styledLinkContainer{
+    padding-bottom: 0;
+    text-align: center;
+    max-width: 142px;
+    margin: 0;
+}
+
+.styledLinkIcon{
+    color: #2F353D;
+    min-width: 142px;
+}
+
+.styledLinkContent{
+    color: #606060;
+}
+
+
+.menuItem {
+    border-bottom: transparent 5px solid;
+    transition: all 0.25s, bottom 0.25s;
+
+}
+.menuItem:hover {
+    border-bottom: #4572ED 5px solid;
+    transition: all 0.25s, bottom 0.25s
+
+}
+
+.styledLinkContent--estrella{
+    text-align: center;
+    font-size: 12px;
+}
+
+.menuContainer{
+    display: flex;
+    justify-content: center;
+    z-index: 81;
+}
+
+.submenuContainer{
+    position: fixed;
+    width: 100%;
+    top: 146px;
+    left: 0;
+    transition: top 0.25s ease-in;
+}
+
+.submenuWrapper{
+    width: 100%;
+    background-color:#F1F5F9;
+}
+
+.styledLinkContainer--submenucss:hover{
+    border-bottom: 0;
+}
+
+.styledLinkContainer--submenucss{
+    padding: 20px 5px;
+    width: 142px;
+}
+
+.menuItem--submenucss:hover{
+    border-bottom: 0;
+    background-color: white;
+}
+
+.menuItem--submenucss{
+    border-bottom: 0;
+    width: 142px;
+    margin-left: 10px;
+}
+
+.styledLinkIcon--tv{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/tv-televisores.png");
+    margin-bottom: 10px;
+}
+.styledLinkIcon--ht{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/SOLA-Im%C3%A1genes-Subcategorias-HT-G700.png");
+    margin-bottom: 10px;
+}
+.styledLinkIcon--dvd{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/SOLA-Im%C3%A1genes-Subcategorias-UBP-X700.png?v=637384561403600000");
+    margin-bottom: 10px;
+}
+.styledLinkIcon--accesoriostv{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/tv-accesorios.png");
+    margin-bottom: 10px;
+}
+.styledLinkIcon--camConLentes{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/photo-camaras-lentes-intercambiables.png");
+    margin-bottom: 10px;
+}
+.styledLinkIcon--cybershot{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/photo-cybershot.png");
+    margin-bottom: 10px;
+}
+.styledLinkIcon--lentes{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/photo-lentes.png");
+    margin-bottom: 10px;
+}
+.styledLinkIcon--photoaccesorios{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/photo-accesorios.png");
+    margin-bottom: 10px;
+}
+.styledLinkIcon--cine{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/SOLA-Nueva-Cam-PRO-FX-6-Icon.png");
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    min-width: 0px;
+}
+
+.styledLinkIcon--videoaction{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/video-action-cam.png");
+    margin-bottom: 10px;
+}
+.styledLinkIcon--handycam{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/video-handycam.png");
+    margin-bottom: 10px;
+}
+.styledLinkIcon--videoaccesorios{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/video-accesorios.png");
+    margin-bottom: 10px;
+}
+.styledLinkIcon--audiosys{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/SOLA-Im%C3%A1genes-Subcategorias-MHC-V83D.png");
+    margin-bottom: 10px;
+}
+.styledLinkIcon--inal{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/SOLAA-Im%C3%A1genes-Subcategorias-SRS-XB43-L.png");
+    margin-bottom: 10px;
+}
+.styledLinkIcon--audifonos{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/SOLA-Im%C3%A1genes-Subcategorias-WH-1000XM4-B.png");
+    margin-bottom: 10px;
+}
+.styledLinkIcon--reprodigi{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/SOLA-Im%C3%A1genes-Subcategorias-NW-WM1A.png");
+    margin-bottom: 10px;
+}
+.styledLinkIcon--boom{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/audio-boomboxes-radios-reproductores.png");
+    margin-bottom: 10px;
+}
+.styledLinkIcon--grabadoras{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/SOLA-Im%C3%A1genes-Subcategorias-ICD%20-PX470.png");
+    margin-bottom: 10px;
+}
+.styledLinkIcon--ps{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/menu-ps5.png");
+    margin-bottom: 10px;
+    background-size: 45px 48px;
+    background-repeat: no-repeat;
+    min-width: 0px;
+
+}
+.styledLinkIcon--consola{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/playstation-consolas.png");
+    margin-bottom: 10px;
+}
+.styledLinkIcon--juegos{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/playstation-juegos.png");
+    margin-bottom: 10px;
+}
+.styledLinkIcon--psaccesorios{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/playstation-accesorios.png");
+    margin-bottom: 10px;
+}
+.styledLinkIcon--caraudio{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/SOLA-Im%C3%A1genes-Subcategorias-XAV-AX8000.png");
+    margin-bottom: 10px;
+}
+.styledLinkIcon--amplificadores{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/audio-auto-bocinas-amplificadores.png");
+    margin-bottom: 10px;
+}
+.styledLinkIcon--cargadores{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/almacenamiento-cargadores-portatiles.png");
+    margin-bottom: 10px;
+}
+.styledLinkIcon--tarjetas{
+    background-image: url("https://cosonyb2c.vteximg.com.br/arquivos/almacenamiento-tarjetas-de-memoria.png");
+    margin-bottom: 10px;
+}
+
+
+.styledLinkContent--submenucss{
+    font-size: 12px;
+}

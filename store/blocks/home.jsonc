@@ -1,0 +1,221 @@
+{
+  "store.home": {
+    "blocks": [
+      "vtex.menu@2.x:menu#sonyMenu",
+      "info-card#cyberdays",
+      // "slider-layout#first-slider",
+      "search-result-layout.customQuery#mostUsed",
+      "flex-layout.row#main-news",
+      "before-footer",
+      "flex-layout.row#more-info",
+      "back-to-top-button"
+    ]
+  },
+  "info-card#cyberdays": {
+    "title": "After Menu Card",
+    "props": {
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://cosonyb2c.vteximg.com.br/arquivos/PM-CO-Cyberday-Desktop.jpg?v=637383697406730000",
+      "headline": "Remate de Ofertas",
+      "subhead": "¡Aprovecha los CyberDays! Del 24 - 27 Junio",
+      "callToActionMode": "none",
+      "blockClass": "after-menu"
+    }
+  },
+  "slider-layout#first-slider": {
+    "title": "Slider Principal",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel",
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+      },
+      "fullWidth": false
+    },
+    "children": [
+      "image#1",
+      "image#2",
+      "rich-text#3"
+    ]
+  },
+  "image#1": {
+    "title": "Primera Imagen",
+    "props": {
+      "src": "https://hruiz.com/img/slide/slide4/fondo3.jpg"
+    }
+  },
+  "image#2": {
+    "title": "Segunda",
+    "props": {
+      "src": "https://cosonyb2c.vteximg.com.br/arquivos/PM-CO-CyberLunes-Evento-2021-06-Desktop.jpg?v=637590360017100000",
+      "heigth": 450
+    }
+  },
+  "rich-text#3": {
+    "title": "Texto 3",
+    "props": {
+      "text": "Test3"
+    }
+  },
+  "flex-layout.row#main-news": {
+    "title": "Newsletter",
+    "props": {
+      "blockClass": "before-footer"
+    },
+    "children": [
+      "flex-layout.col#nose"
+    ]
+  },
+  "flex-layout.col#nose": {
+    "children": [
+      "flex-layout.row#news-title",
+      "newsletter-form"
+    ]
+  },
+  "newsletter-form": {
+    "title": "Newsletter Form",
+    "props": {
+      "blockClass": "news"
+    },
+    "children": [
+      "flex-layout.row#news"
+    ]
+  },
+  "flex-layout.row#news-title": {
+    "props": {
+      "blockClass": "news-up",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#news-image",
+      "rich-text#news-title"
+    ]
+  },
+  "image#news-image": {
+    "props": {
+      "blockClass": "imagen-new",
+      "src": "assets/newsletter.png"
+    }
+  },
+  "rich-text#news-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Recibe nuestras mejores ofertas",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "news-title"
+    }
+  },
+  "flex-layout.row#news": {
+    "props": {
+      "blockClass": "main-news"
+    },
+    "children": [
+      "flex-layout.col#new-name",
+      "flex-layout.col#new-mail",
+      "flex-layout.col#new-btn"
+    ]
+  },
+  "flex-layout.col#new-name": {
+    "children": [
+      "rich-text#name",
+      "newsletter-input-name"
+    ]
+  },
+  "rich-text#name": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Nombre",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "news-message"
+    }
+  },
+  "flex-layout.col#new-mail": {
+    "props": {
+      "blockClass": "email-space"
+    },
+    "children": [
+      "rich-text#mail",
+      "newsletter-input-email"
+    ]
+  },
+  "rich-text#mail": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "E-mail",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "news-message"
+    }
+  },
+  "newsletter-input-email": {
+    "props": {
+      "blockClass": "prueba",
+      "placeholderText": "Registra tu e-mail y recube descuentos..."
+    }
+  },
+  "newsletter-input-name": {
+    "props": {
+      "placeholderText": "Nombre"
+    }
+  },
+  "flex-layout.col#new-btn": {
+    "props": {
+      "blockClass": "btn-news"
+    },
+    "children": [
+      "newsletter-submit"
+    ]
+  },
+  "newsletter-submit": {
+    "props": {
+      "submitButtonLabel": "Suscribirme"
+    }
+  },
+  "flex-layout.row#more-info": {
+    "title": "More Info",
+    "children": [
+      "flex-layout.col#more-info"
+    ]
+  },
+  "flex-layout.col#more-info": {
+    "children": [
+      "rich-text#info-compra",
+      "rich-text#info-compra-more"
+    ]
+  },
+  "rich-text#info-compra": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "¿Necesitas informacion de tu compra?",
+      "blockClass": "news-info-compra"
+    }
+  },
+  "rich-text#info-compra-more": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Escríbenos a compras.online@am.sony.com \npara solucionar tus dudas en el proceso de compra, envío, entrega o estado de tu pedido.",
+      "blockClass": "news-info-compra-more"
+    }
+  },
+  "back-to-top-button": {
+    "props": {
+      "displayThreshold": 800,
+      "display": "caret-icon"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.openIconContainer{
+    padding:0;
+}
+.minicartWrapperContainer{
+    /* margin-bottom: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minicartWrapperContainer :global(.vtex-button){
+    background-color: black;
+}
+.minicartWrapperContainer--miniCart :global(.vtex-button):hover{
+    background-color: #4572ED;
+}
+
+.minicartContainer--miniCart{
+    height: 36px;
+    margin-left: 10px;
+
+}
+
+.minicartTitle{
+    display: none;
+}
+
+.minicartCheckoutButton :global(.vtex-button){
+    background-color: #5787F4;
+    height: 35px;
+}
+
+
+.minicartCheckoutButton :global(.vtex-button__label){
+    text-transform: none;
+    font-size: 13px;
+}
+
+
+/* .shipping-data .accordion-toggle span { font-size: 0: }
+.shipping-data .accordion-toggle span:after { content: "{Text here}"; } */
+/* .company-name{font-size: 0}
+
+.company-name:after{
+ }​ */
+
+ .minicartProductListContainer{
+     padding-left: 0;
+     padding-right: 0;
+ }
+
+ .minicartQuantityBadgeDefault{
+     background-color: #D94C25;
+ }
+
+
+ .minicartCheckoutButton--botonadentro :global(.vtex-button){
+    background-color: #D94C25;
+ }
