@@ -67,3 +67,18 @@
     font-size: 16px;
     color: #83838F;
 }
+
+.paragraph--text-x{
+    margin: 0;
+    font-size: 14px;
+    color: #83838F;
+    line-height: 18px;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+.paragraph--text-stock{
+    margin: 0;
+    line-height: 21px;
+    color: #6D6D6D;
+    font-size: 10px;
+}

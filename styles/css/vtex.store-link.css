@@ -24,3 +24,11 @@
 .link--footer-link:hover{
     color: #83838f;
 }
+
+
+@media screen and (max-width: 999px) {
+   
+    .link--link-centro-ayuda{
+        margin-left: 60px;
+    }
+}
