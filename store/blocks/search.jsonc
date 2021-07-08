@@ -6,55 +6,11 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
-      }
-    }
-  },
-  "store.search#brand": {
-    "blocks": [
-      "search-result-layout"
-    ],
-    "props": {
-      "context": {
-        "orderByField": "OrderByReleaseDateDESC",
-        "hideUnavailableItems": true,
-        "maxItemsPerPage": 10,
-        "skusFilter": "ALL",
-        "simulationBehavior": "skip"
-      }
-    }
-  },
-  "store.search#department": {
-    "blocks": [
-      "search-result-layout"
-    ],
-    "props": {
-      "context": {
-        "skusFilter": "ALL",
-        "simulationBehavior": "skip"
-      }
-    }
-  },
-  "store.search#category": {
-    "blocks": [
-      "search-result-layout"
-    ],
-    "props": {
-      "context": {
-        "skusFilter": "ALL",
-        "simulationBehavior": "skip"
-      }
-    }
-  },
-  "store.search#subcategory": {
-    "blocks": [
-      "search-result-layout"
-    ],
-    "props": {
-      "context": {
-        "skusFilter": "ALL",
-        "simulationBehavior": "skip"
-      }
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 9,
+        "hideUnavailableItems": true
+      },
+      "blockClass": "search-pg"
     }
   },
   "search-result-layout": {
@@ -102,13 +58,10 @@
   },
   "flex-layout.row#orderByAndSwitcher": {
     "children": [
-      "order-by.v2"
+      "order-by.hruiz"
     ],
     "props": {
-      "horizontalAlign": "right",
-      "preventHorizontalStretch": true,
-      "blockClass": "orderByAndSwitcher",
-      "colGap": 3
+      "blockClass": "orderByAndSwitcher"
     }
   },
   "flex-layout.row#fetchprevious": {
@@ -151,7 +104,6 @@
   "search-result-layout.mobile": {
     "children": [
       "flex-layout.row#searchinfomobile",
-      "flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
       "flex-layout.row#fetchmore"
@@ -175,9 +127,7 @@
   },
   "flex-layout.row#searchinfomobile": {
     "children": [
-      "flex-layout.col#orderByMobile",
-      "flex-layout.col#filterMobile",
-      "flex-layout.col#switcherMobile"
+      "flex-layout.col#orderByMobile"
     ],
     "props": {
       "preserveLayoutOnMobile": true,
