@@ -1,0 +1,98 @@
+{
+    "sticky-layout#product-bar": {
+        "props": {
+            "position": "top",
+            "blockClass": "product-top"
+        },
+        "children": [
+            "flex-layout.row#buy-button"
+        ]
+    },
+    "flex-layout.row#buy-button": {
+        "props": {
+            "marginTop": 4,
+            "marginBottom": 2,
+            "paddingBottom": 2,
+            "blockClass": "buy-btn"
+        },
+        "children": [
+            "flex-layout.col#left-top",
+            "flex-layout.col#rigth-top"
+        ]
+    },
+    "flex-layout.col#left-top": {
+        "props": {
+            "blockClass": "product-bar"
+        },
+        "children": [
+            "breadcrumb#bc",
+            "vtex.store-components:product-name#top"
+        ]
+    },
+    "breadcrumb#bc": {
+        "props": {
+            "homeIconSize": 0
+        }
+    },
+    "vtex.store-components:product-name#top": {
+        "props": {
+            "blockClass": "top-name",
+            "showProductReference": true
+        }
+    },
+    "flex-layout.col#rigth-top": {
+        "props": {
+            "blockClass": "top-tg",
+            "verticalAlign": "right",
+            "colSizing": "auto"
+        },
+        "children": [
+            "flex-layout.row#rigth-top"
+        ]
+    },
+    "flex-layout.row#rigth-top": {
+        "props": {
+            "blockClass": "top-tg"
+        },
+        "children": [
+            "flex-layout.col#methods",
+            "flex-layout.col#prices",
+            "buy-button#top"
+        ]
+    },
+    "flex-layout.col#methods": {
+        "props": {
+            "horizontalAlign": "methods"
+        }
+    },
+    "flex-layout.col#prices": {
+        "props": {
+            "horizontalAlign": "right",
+            "verticalAlign": "bottom"
+        },
+        "children": [
+            "product-price#top",
+            "rich-text#stock"
+        ]
+    },
+    "product-price#top": {
+        "props": {
+            "blockClass": "valor-top"
+        }
+    },
+    "rich-text#stock": {
+        "props": {
+            "text": "En stock XX unidades",
+            "blockClass": "text-stock"
+        }
+    },
+    "buy-button#top": {
+        "props": {
+            "showToast": true,
+            "blockClass": "el-boton",
+            "options": {
+                "buyButtonText": "Prueba"
+            }
+        }
+    }
+}

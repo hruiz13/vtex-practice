@@ -65,7 +65,8 @@
   },
   "search-bar": {
     "props": {
-      "placeholder": "Buscar productos por nombre, código o categoría..."
+      "placeholder": "Buscar productos por nombre, código o categoría...",
+      "displayMode": "search-button"
     }
   },
   "flex-layout.col#spacer": {

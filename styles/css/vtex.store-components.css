@@ -166,7 +166,7 @@
     line-height: 18px;
     color: #2F353D;
     text-align: left;
-    height: 36px;
+    min-height: 36px;
 }
 
 .productNameContainer {

@@ -107,3 +107,7 @@
 .flexRow--buy-btn{
    width: 80%;
 }
+
+.flexRowContent--reviews{
+   background-color: white;
+}
