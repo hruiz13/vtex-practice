@@ -37,13 +37,13 @@
   "flex-layout.col#rightc": {
     "props": {
       "preventVerticalStretch": true,
-      "verticalAlign": "middle",
+      "verticalAlign": "top",
       "blockClass": "products-details"
     },
     "children": [
       "vtex.store-components:product-name#pr",
       // "product-sku-attributes",
-      "product-rating-summary",
+      "link.product#sumary-anchor",
       "product-description",
       "sku-selector",
       "product-specifications"
@@ -66,6 +66,15 @@
       "showProductReference": true
     }
   },
+  "link.product#sumary-anchor": {
+    "props": {
+      "href": "#comentarios",
+      "blockClass": "sumary-anchor"
+    },
+    "children": [
+      "product-rating-summary"
+    ]
+  },
   "buy-button#buy": {
     "props": {
       "blockClass": "buy-btn-product"
@@ -75,6 +84,14 @@
     "props": {
       "marginTop": 6,
       "blockClass": "reviews"
+    },
+    "children": [
+      "wrapperId"
+    ]
+  },
+  "wrapperId": {
+    "props": {
+      "wrapperId": "comentarios"
     },
     "children": [
       "product-reviews"
