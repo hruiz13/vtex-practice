@@ -2,3 +2,24 @@
     justify-self: center;
     align-self: center;
 }
+
+.triggerContainer--shipping{
+    width: 72px;
+    height: 76px;
+    padding: 5px;
+    background-color: #E4E7EB;
+    cursor: pointer;
+}
+
+.paper--s-modal{
+    width: 50%;
+}
+
+.headerContainer--s-header{
+    background-color: black;
+   color: white;
+}
+
+.closeButton--s-header{
+    color: white;
+}

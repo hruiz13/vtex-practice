@@ -62,7 +62,48 @@
     },
     "flex-layout.col#methods": {
         "props": {
-            "horizontalAlign": "methods"
+            "horizontalAlign": "right"
+        },
+        "children": [
+            "modal-trigger#shipping"
+        ]
+    },
+    "modal-trigger#shipping": {
+        "props": {
+            "blockClass": "shipping"
+        },
+        "children": [
+            "flex-layout.row#shipping",
+            "modal-layout#shipping"
+        ]
+    },
+    "flex-layout.row#shipping": {
+        "props": {
+            "marginTop": 3
+        },
+        "children": [
+            "flex-layout.col#intship"
+        ]
+    },
+    "flex-layout.col#intship": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "rich-text#ship",
+            "rich-text#shipping"
+        ]
+    },
+    "rich-text#ship": {
+        "props": {
+            "text": " i",
+            "blockClass": "shippimg"
+        }
+    },
+    "rich-text#shipping": {
+        "props": {
+            "text": "Envio en 3 dias +",
+            "blockClass": "envio"
         }
     },
     "flex-layout.col#prices": {
@@ -72,7 +113,7 @@
         },
         "children": [
             "product-price#top",
-            "rich-text#stock"
+            "product-availability"
         ]
     },
     "product-price#top": {
@@ -84,6 +125,13 @@
         "props": {
             "text": "En stock XX unidades",
             "blockClass": "text-stock"
+        }
+    },
+    "product-availability": {
+        "props": {
+            "threshold": "10",
+            "lowStockMessage": "En stock {quantity} unidades",
+            "highStockMessage": "En stock 10 unidades"
         }
     },
     "buy-button#top": {

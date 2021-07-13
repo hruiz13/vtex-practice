@@ -1,0 +1,24 @@
+.container {
+    color: #6D6D6D;
+    line-height: 21px;
+    font-size: 10px;
+}
+
+.lowStockText{
+    color: #6D6D6D;
+    line-height: 21px;
+    font-size: 10px;
+}
+
+.lowStockHighlight{
+    color: #6D6D6D;
+    line-height: 21px;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.lowStockText {
+    color: #6D6D6D;
+    line-height: 21px;
+    font-size: 10px;
+}

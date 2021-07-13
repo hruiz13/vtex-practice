@@ -1,0 +1,49 @@
+{
+    "modal-layout#shipping": {
+        "props": {
+            "blockClass": "s-modal"
+        },
+        "children": [
+            "modal-header#shipping",
+            // "flex-layout.row#s-header",
+            "rich-text#calc",
+            "rich-text#calc-text",
+            "shipping-simulator"
+        ]
+    },
+    "rich-text#calc": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Calculador de Envío",
+            "blockClass": "calculador"
+        }
+    },
+    "rich-text#calc-text": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Así podrá calcular el costo de envío y conocer los servicios disponibles",
+            "blockClass": "calculador-text"
+        }
+    },
+    "rich-text#pr3": {
+        "props": {
+            "text": "X"
+        }
+    },
+    "modal-header#shipping": {
+        "props": {
+            "showCloseButton": true,
+            "blockClass": "s-header"
+        },
+        "children": [
+            "logo"
+        ]
+    },
+    "shipping-simulator": {
+        "props": {
+            "blockClass": "simulator"
+        }
+    }
+}

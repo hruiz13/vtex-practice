@@ -82,3 +82,38 @@
     color: #6D6D6D;
     font-size: 10px;
 }
+
+.paragraph--envio{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 10px;
+    line-height: 13px;
+    color: #2F353D;
+}
+
+.paragraph--shippimg{
+    background: url(https://cosonyb2c.vteximg.com.br/arquivos/icn.png) 0 0;
+    width: 25px;
+    height: 25px;
+    background-position: -100px -400px;   
+    color: transparent;
+    padding: 0;
+    margin: auto;
+}
+
+.wrapper--calculador{
+    font-size: 18px;
+    color: #2f353d;
+    font-weight: 700;
+}
+.wrapper--calculador-text{
+    line-height: 16px;
+    font-size: 13px;
+    text-align: center;
+    color: #83838F;
+}
+
+.paragraph--calculador-text{
+    margin-top: 0;
+}

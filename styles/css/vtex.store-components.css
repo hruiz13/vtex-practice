@@ -85,6 +85,7 @@
 
 .infoCardTextContainer--after-menu{
     /* margin-left: 80px; */
+    margin-right: 30vw;
     height: 200px;
     white-space: nowrap
 }
@@ -322,4 +323,34 @@
     text-transform: uppercase;
     font-size: 12px;
     color: #83838F;
+}
+
+.shippingContainer{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shippingContainer :first-child{
+    display: flex;
+    flex-direction: row;
+}
+.shippingContainer :global(.vtex-dropdown__label){
+    display: none;
+}
+.shippingContainer :global(.vtex-address-form__state){
+    margin-right: 20px;
+}
+
+.shippingTable {
+    width: 80%;
+    align-self: center;
+}
+
+.shippingTableHead {
+    display: contents;
+}
+
+.shippingTableRadioBtn {
+    display: none;
 }

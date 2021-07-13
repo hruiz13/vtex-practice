@@ -15,7 +15,7 @@
     "title": "After Menu Card",
     "props": {
       "isFullModeStyle": true,
-      "textPosition": "left",
+      "textPosition": "center",
       "imageUrl": "https://cosonyb2c.vteximg.com.br/arquivos/PM-CO-Cyberday-Desktop.jpg?v=637383697406730000",
       "headline": "Remate de Ofertas",
       "subhead": "¡Aprovecha los CyberDays! Del 24 - 27 Junio",
