@@ -46,9 +46,9 @@
       "link.product#sumary-anchor",
       "product-description",
       "sku-selector",
-      "product-specifications"
+      "product-specifications",
       // "product-price",
-      // "buy-button#buy"
+      "buy-button#buy"
     ]
   },
   "product-images": {

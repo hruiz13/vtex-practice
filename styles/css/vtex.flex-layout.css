@@ -91,7 +91,7 @@
 }
 
 .flexRowContent--buy-btn :global(.vtex-button){
-   width: 150px;
+   max-width: 150px;
    height: 54px;
    margin-top: 21px;
 }
@@ -103,11 +103,29 @@
 .flexRowContent--buy-btn{
    margin-top: 10px;
 }
-
 .flexRow--buy-btn{
    width: 80%;
 }
+@media screen and (max-width: 999px) {
+
+   .flexRow--buy-btn{
+      width: 100%;
+   }
+   
+}
+
 
 .flexRowContent--reviews{
    background-color: white;
+}
+
+
+.flexRow--main-header-mobile{
+   width: 100%;
+}
+
+@media screen and (min-width: 640px) {
+.flexColChild--products-details :global(.vtex-button){
+   display: none;
+}
 }

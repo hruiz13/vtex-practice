@@ -32,6 +32,16 @@
     width: 100%;
 }
 
+.container--en-mobile{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 640px) {
+    .wrapper--product-top{
+        display: none;
+    }
+}
 
 /* 
 vtex-sticky-layout-0-x-wrapper vtex-sticky-layout-0-x-wrapper--product-top

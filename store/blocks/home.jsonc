@@ -1,7 +1,36 @@
 {
   "store.home": {
     "blocks": [
+      "responsive-layout.desktop#d",
+      "responsive-layout.tablet#t",
+      "responsive-layout.phone#p"
+    ]
+  },
+  "responsive-layout.desktop#d": {
+    "children": [
       "vtex.menu@2.x:menu#sonyMenu",
+      "info-card#cyberdays",
+      // "slider-layout#first-slider",
+      "search-result-layout.customQuery#mostUsed",
+      "flex-layout.row#main-news",
+      "before-footer",
+      "flex-layout.row#more-info",
+      "back-to-top-button"
+    ]
+  },
+  "responsive-layout.tablet#t": {
+    "children": [
+      "info-card#cyberdays",
+      // "slider-layout#first-slider",
+      "search-result-layout.customQuery#mostUsed",
+      "flex-layout.row#main-news",
+      "before-footer",
+      "flex-layout.row#more-info",
+      "back-to-top-button"
+    ]
+  },
+  "responsive-layout.phone#p": {
+    "children": [
       "info-card#cyberdays",
       // "slider-layout#first-slider",
       "search-result-layout.customQuery#mostUsed",

@@ -80,6 +80,9 @@
     ]
   },
   "sticky-layout#mobile": {
+    "props": {
+      "blockClass": "en-mobile"
+    },
     "children": [
       "flex-layout.row#mobile"
     ]
@@ -88,7 +91,6 @@
     "children": [
       "drawer",
       "logo",
-      "search-bar",
       "flex-layout.col#spacer",
       "link.product#product-page",
       "minicart.v2#op2",
