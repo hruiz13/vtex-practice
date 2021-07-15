@@ -1,0 +1,33 @@
+.paginationDot--carouseldos--isActive{
+    background: #2F353D;
+}
+
+.sliderArrows{
+    background-color: #4D5059 !important;
+    color: #FFF;
+    width: 30px;
+    height: 52px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 52px;
+    border-radius: 3px;
+    margin-left: 8%;
+    margin-right: 8%;
+    opacity: 0.6;
+    transition: all 0.25s;
+}
+.sliderArrows:hover{
+    opacity: 1;
+}
+
+.paginationDotsContainer--carouseldos{
+    bottom: 15px;
+}
+
+@media screen and (max-width: 660px) {
+
+    .slide--carouseldos--visible{
+        margin-bottom: 350px;
+    }   
+}
+

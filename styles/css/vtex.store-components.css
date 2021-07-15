@@ -3,11 +3,100 @@
 .infoCardContainer{
     margin:auto;
     background-color: #ecedef;
-    width: 90%;
+    width: 100%;
     margin-top: 15px;
+    height: 405px;
 }
+
+.infoCardTextContainer{
+    margin-left: 12%;
+}
+
 .infoCardContainer--info-card-push-stick{
     height: 250px;
+}
+
+.banner-texto1{
+    font-size: 24px;
+    color: #F25529;
+    margin-top: 10px;
+}
+.infoCardTextContainer--banner1{
+    background: #212530;
+    padding: 28px 42px;
+    max-width: 480px;
+}
+
+.infoCardHeadline--banner1{
+    color: #fff;
+}
+.infoCardSubhead--banner1{
+    color: #BCBCCC;
+    font-size: 15px;
+    line-height: 24px;
+}
+.infoCardHeadline--banner1{
+    font-size: 28px;
+    line-height: 48px;
+    font-weight: bold;
+}
+.infoCardCallActionContainer--banner1 :global(.vtex-button__label){
+    text-transform: none;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0 20px;
+    height: 44px;
+    line-height: 44px;
+}
+
+
+.infoCardCallActionContainer--banner2 :global(.vtex-button__label){
+    text-transform: none;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0 20px;
+    height: 44px;
+    line-height: 44px;
+}
+
+.infoCardSubhead--banner2{
+    color: #f25529;
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.infoCardHeadline--banner2{
+    color: #2F353D;
+    line-height: 52px;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: bold;
+}
+.infoCardTextContainer--banner2{
+    max-width: 380px
+}
+
+.infoCardCallActionContainer--banner3 :global(.vtex-button__label){
+    text-transform: none;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0 20px;
+    height: 44px;
+    line-height: 44px;
+}
+
+.infoCardSubhead--banner3{
+    font-size: 15px;
+    color: #83838F;
+    line-height: 24px;
+    margin-top: 5px;
+}
+.infoCardHeadline--banner3{
+    color: #2F353D;
+        line-height: 52px;
+        font-size: 40px;
+        line-height: 48px;
 }
 
 .infoCardHeadline--info-card-push-stick{
@@ -353,4 +442,19 @@
 
 .shippingTableRadioBtn {
     display: none;
+}
+
+
+@media screen and (max-width: 660px) {
+    .infoCardTextContainer {
+        position: absolute;
+        top: 390px;
+        width: 100%;
+        margin: 0;
+        align-items: center;
+    }
+    .infoCardContainer{
+        /* background-size: contain !important; */
+        background-position: -960px -29px;
+    }
 }

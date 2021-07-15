@@ -23,7 +23,8 @@
 }
 
 .flexRow--main-news{
-   padding: 27px
+   padding: 27px;
+   width: 83%;
 }
 
 .flexRowContent--main-news :global(.vtex-input-prefix__group){
@@ -33,13 +34,20 @@
 }
 
 .flexCol--email-space{
-   width: 430px !important;
+   /* width: 430px !important; */
 }
 
 .flexRow--before-footer{
    width: 80%;
    margin: auto;
 }
+
+@media screen and (max-width: 780px) {
+   .flexRow--before-footer{
+      width: 100%;
+   }
+}
+
 
 .flexRowContent--news-up{
    justify-content: center;
@@ -128,4 +136,8 @@
 .flexColChild--products-details :global(.vtex-button){
    display: none;
 }
+}
+
+.flexRowContent--main-header-mobile{
+   background: black;
 }

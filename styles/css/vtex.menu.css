@@ -54,6 +54,7 @@
     top: 146px;
     left: 0;
     transition: top 0.25s ease-in;
+    z-index: 100;
 }
 
 .submenuWrapper{
@@ -197,4 +198,8 @@
 
 .styledLinkContent--submenucss{
     font-size: 12px;
+}
+
+.submenu{
+    height: 137px;
 }

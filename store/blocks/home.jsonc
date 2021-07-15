@@ -9,8 +9,8 @@
   "responsive-layout.desktop#d": {
     "children": [
       "vtex.menu@2.x:menu#sonyMenu",
-      "info-card#cyberdays",
-      // "slider-layout#first-slider",
+      // "info-card#cyberdays",
+      "slider-layout#second-slider",
       "search-result-layout.customQuery#mostUsed",
       "flex-layout.row#main-news",
       "before-footer",
@@ -20,8 +20,8 @@
   },
   "responsive-layout.tablet#t": {
     "children": [
-      "info-card#cyberdays",
-      // "slider-layout#first-slider",
+      // "info-card#cyberdays",
+      "slider-layout#second-slider",
       "search-result-layout.customQuery#mostUsed",
       "flex-layout.row#main-news",
       "before-footer",
@@ -31,8 +31,8 @@
   },
   "responsive-layout.phone#p": {
     "children": [
-      "info-card#cyberdays",
-      // "slider-layout#first-slider",
+      // "info-card#cyberdays",
+      "slider-layout#second-slider",
       "search-result-layout.customQuery#mostUsed",
       "flex-layout.row#main-news",
       "before-footer",
@@ -63,17 +63,83 @@
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel",
-      "autoplay": {
-        "timeout": 4000,
-        "stopOnHover": true
-      },
-      "fullWidth": false
+      // "autoplay": {
+      //   "timeout": 4000,
+      //   "stopOnHover": true
+      // },
+      "fullWidth": true
     },
     "children": [
-      "image#1",
-      "image#2",
-      "rich-text#3"
+      "info-card#banner1"
+      // "image#2",
+      // "rich-text#3"
     ]
+  },
+  "slider-layout#second-slider": {
+    "title": "Slider Principal",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carouseldos",
+      "fullWidth": true,
+      "showPaginationDots": "always",
+      "autoplay": {
+        "timeout": 6000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "info-card#banner1",
+      "info-card#banner2",
+      "info-card#banner3"
+    ]
+  },
+  "info-card#banner1": {
+    "props": {
+      "id": "banner1",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://cosonyb2c.vteximg.com.br/arquivos/PT-CO-Regresoaclase-Desktop.jpg",
+      "headline": "Un regreso a Clases cargado de tecnología",
+      "subhead": "Descubre los productos más innovadores <br><div class='vtex-store-components-3-x-banner-texto1'>Hasta 59% dto</div>",
+      "callToActionText": "Descúbrelos >>",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner1",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner2": {
+    "props": {
+      "id": "banner2",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://i.ibb.co/j8p6R2t/PT-SOLA-TV-X80-J-2021-02-Desktop-1.jpg",
+      "headline": "Google TV cobra vida con sonidos y colores brillantes",
+      "subhead": "Beneficio + Pulgadas",
+      "callToActionText": "Ver detalles >>",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner2",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner3": {
+    "props": {
+      "id": "banner3",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://cosonyb2c.vteximg.com.br/arquivos/PT-SOLA-RA3000-RA5000-2021-04-Desktop.jpg",
+      "headline": "Sonido premium<br>que ininda tu sala",
+      "subhead": "Experimenta una forma de escuchar<br>música en tu casa y crea un ambiente perfecto",
+      "callToActionText": "Ver detalles >>",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner3",
+      "textAlignment": "center"
+    }
   },
   "image#1": {
     "title": "Primera Imagen",
