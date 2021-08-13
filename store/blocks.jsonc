@@ -1,0 +1,12 @@
+{
+    "store.not-found#product": {
+        "blocks": [
+            "rich-text#notF"
+        ]
+    },
+    "rich-text#notF": {
+        "props": {
+            "text": "Pagina no encontradilla"
+        }
+    }
+}
