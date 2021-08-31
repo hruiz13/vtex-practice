@@ -58,6 +58,7 @@
       "product-identifier.summary",
       "product-specification-badges#productSummary",
       "product-summary-space",
+      "product-quantity",
       "product-selling-price#summary",
       "add-to-cart-button"
     ]

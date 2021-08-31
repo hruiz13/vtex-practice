@@ -4,7 +4,7 @@
       "querySchema": {
         "maxItemsPerPage": 9,
         "orderByField": "OrderByReleaseDateDESC",
-        "queryField": "product",
+        "queryField": "tv",
         "mapField": "ft",
         "__unstableProductOriginVtex": true,
         "simulationBehavior": "skip",
